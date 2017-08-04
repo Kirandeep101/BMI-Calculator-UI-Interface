@@ -1,8 +1,9 @@
 ﻿/*
  * Name:-Kirandeep Kaur
  * Date:- 4/july/2017
- * Version:- 0.2 UI BMI Calculator
- * Description:- Create BMI calculator and add weight, height label and text box .add calculate button
+ * Version:- 0.3 UI BMI Calculator
+ * Description:- Add github link
+ * https://github.com/Kirandeep101/BMI-Calculator-UI-Interface
  *  */
 namespace BMI_Calculator_UI_Interface
 {
