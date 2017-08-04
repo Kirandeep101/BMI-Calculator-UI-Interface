@@ -1,7 +1,7 @@
 ﻿/*
  * Name:-Kirandeep Kaur
  * Date:- 4/july/2017
- * Version:- 0.1 
+ * Version:- 0.1 UI BMI Calculator
  * Description:- Create for, BMI calculator and add radio buttons.
  */
 namespace BMI_Calculator_UI_Interface
