@@ -1,9 +1,9 @@
 ﻿/*
- * Name:-Kirandeep Kaur
- * Date:- 4/july/2017
- * Version:- 0.3 UI BMI Calculator
- * Description:- Add github link
- * https://github.com/Kirandeep101/BMI-Calculator-UI-Interface
+ * Name:Kirandeep Kaur
+ * Student Id: 300915966
+ * Date:15/08/2017
+ * Description:- Implement Formula for switching radio and imperial buttons
+ * Version:- 0.4 finally calculate bmi 
  */
 using System;
 using System.Collections.Generic;
