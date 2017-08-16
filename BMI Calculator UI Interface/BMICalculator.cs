@@ -2,9 +2,8 @@
  * Name:Kirandeep Kaur
  * Student Id: 300915966
  * Date:15/08/2017
- * Description:-  * Version:- 0.4 added form closing event handler
-
- * Version:- 0.5 added form closing
+ * Description:-  * Version:- 0.5 Adding background
+ * Version:- 0.5 background
  */
 using System;
 using System.Collections.Generic;
@@ -98,6 +97,11 @@ namespace BMI_Calculator_UI_Interface
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void BMICalculator_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BMICalculator_Load(object sender, EventArgs e)
         {
 
         }

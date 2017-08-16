@@ -193,6 +193,7 @@ namespace BMI_Calculator_UI_Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(325, 441);
             this.Controls.Add(this.MetricButton);
             this.Controls.Add(this.ImperialButton);
@@ -203,6 +204,7 @@ namespace BMI_Calculator_UI_Interface
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMICalculator";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BMICalculator_FormClosing);
+            this.Load += new System.EventHandler(this.BMICalculator_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
