@@ -2,8 +2,9 @@
  * Name:Kirandeep Kaur
  * Student Id: 300915966
  * Date:15/08/2017
- * Description:- Implement Formula for switching radio and imperial buttons
- * Version:- 0.5 finally calculate bmi 
+ * Description:-  * Version:- 0.4 added form closing event handler
+
+ * Version:- 0.5 added form closing
  */
 using System;
 using System.Collections.Generic;
@@ -90,6 +91,15 @@ namespace BMI_Calculator_UI_Interface
         {
             meterlabel.Text = "m";
             kiloglabel.Text = "kg";
+        }
+        /// <summary>
+        /// this is event handler for form closing
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BMICalculator_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

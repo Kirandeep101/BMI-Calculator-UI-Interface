@@ -3,7 +3,7 @@
  * Student Id: 300915966
  * Date:15/08/2017
  * Description:- Implement Formula for switching radio and imperial buttons
- * Version:- 0.4 finally calculate bmi 
+ * Version:- 0.4 closing form
  */
 namespace BMI_Calculator_UI_Interface
 {
@@ -202,6 +202,7 @@ namespace BMI_Calculator_UI_Interface
             this.Name = "BMICalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMICalculator";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BMICalculator_FormClosing);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

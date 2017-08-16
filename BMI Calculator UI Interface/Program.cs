@@ -2,8 +2,8 @@
  * Name:Kirandeep Kaur
  * Student Id: 300915966
  * Date:15/08/2017
- * Description:- Implement Formula for switching radio and imperial buttons
- * Version:- 0.4 finally calculate bmi 
+ * Description:- clear form
+ * Version:- 0.4 
  */
 using System;
 using System.Collections.Generic;
@@ -23,7 +23,7 @@ namespace BMI_Calculator_UI_Interface
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BMICalculator());
+            Application.Run(new SplashForm());
         }
     }
 }
