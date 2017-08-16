@@ -193,7 +193,7 @@ namespace BMI_Calculator_UI_Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 442);
+            this.ClientSize = new System.Drawing.Size(325, 441);
             this.Controls.Add(this.MetricButton);
             this.Controls.Add(this.ImperialButton);
             this.Controls.Add(this.tableLayoutPanel1);
